@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+#cabesera{
+	background-color:blue;
+}
+
+#nevegacion{
+	background-color:#0F0;
+}
+
+#barra_lateral{
+	background-color:#CF0;
+}
+
+#contenido{
+	background-color:#909;
+}
+
+#informacion{
+	background-color:#366;
+}
