@@ -1,0 +1,19 @@
+/*esta es la hoja de estilos del php, la cual funciona para darle una imagen diferente al recibo del php luego de la consulta*/
+body{
+	background-color:cadetblue;
+	background-attachment: fixed;
+	background-size : cover;
+	color: #000; 
+}
+h1{
+    text-align: center;
+    background-color: cornflowerblue;
+}
+h2{
+   
+    background-color: aqua;
+}
+h3{
+    
+    background-color: aquamarine;
+}
