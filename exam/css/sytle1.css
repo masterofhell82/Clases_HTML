@@ -7,13 +7,17 @@ body{
 }
 h1{
     text-align: center;
-    background-color: cornflowerblue;
+    color:aqua;
 }
 h2{
    
-    background-color: aqua;
+    color:blue;
 }
 h3{
     
-    background-color: aquamarine;
+    color:blueviolet;
+}
+h2, h3, .Diana{
+    text-align: left;
+    
 }
