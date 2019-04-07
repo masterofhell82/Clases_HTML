@@ -5,18 +5,22 @@ body{
 	background-size : cover;
 	color: #000; 
 }
+
 h1{
     text-align: center;
     color:aqua;
 }
+
 h2{
    
     color:blue;
 }
+
 h3{
     
     color:blueviolet;
 }
+
 h2, h3, .Diana{
     text-align: left;
     
