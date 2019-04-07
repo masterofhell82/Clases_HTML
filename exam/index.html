@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario Examen</title>
+    <SCRIPT SRC="js/app.js"></SCRIPT>
+    <LINK REL=StyleSheet HREF="css/sytle.css">
+</head>
+<body>
+    <div class="h1">
+        <h1>Formulario Basico de Mundo Express C.A. </h1>
+    </div>
+    <form method="post" action="imp.php">
+    <form method='post' name='form' onSubmit="obtenerDatos(this)">
+    <div class="mt-3" id="respuesta"></div>    
+    <form> 
+        <label> Nombre: (*)</label> <br />
+            <input type="text" id="nom" name="nom" size="40" placeholder="Primer Nombre" required /> <br />
+        <label> Apellido: (*)</label> <br />
+            <input type="text" id="ape" name="ape" size="40" placeholder="Primer Apellido" required /> <br />    
+        <label> Fecha de Nacimiento: (*)</label> <br /> 
+             <input type="date" id="fecha" name="fecha" required size="20"> <br />  
+        <label> Edad: (*)</label> <br />
+            <input type="number" id="edad" name="edad" size="3" placeholder="Minimo 15 Años" required min="12" /> <br />
+        <label> Correo: (*)</label><br />
+            <input type="text" id="e" name="e" placeholder="Baloo@Ejemplo.com" required /><br />
+        <label> Contraseña (Sera Encriptada)(*)</label><br />
+            <input type="password" id="pass" name="pass" placeholder="Minimo 8 Caracteres" required minlength="8" /><br /> 
+        <label>Teléfono: (*)</label> <br /> 
+            <input type="tel" id="tel" name="tel" placeholder="0000-Ejemplo"  required size="40"> <br />
+        <label>Direccion de Vivienda (*)</label> <br />
+            <textarea id="dire" name="dire" placeholder="Escriba su Direccion..."></textarea>
+        <label>Mensaje</label> <br />
+            <textarea id="mens" name="mens" placeholder="Escriba su Mensaje..."></textarea>           
+        <label>Color Favorito: </label> 
+            <select  id="color" name="color" >
+                <option selected>...</option>
+                <option value="Verde">Verde</option>
+                <option value="Azul">Azul</option>
+                <option value="Rojo">Rojo</option>
+                <option value="Morado">Morado</option>
+                <option value="Negro">Negro</option>
+            </select><br />
+        <p>Sexo: (*)</p>             
+        <div class="sexo"> 
+            <label>
+            Hombre<input type="radio" id="hm" name="hm" value="h"required> 
+            Mujer<input type="radio" id="hm" name="hm" value="m"required>
+            </label>
+        </div><br />            
+        <div class="alerta">
+        <p> Campos com (*) son Obligatorios </p>
+        </div> <br />
+            <input type="submit" name="envio" value="Enviar">
+            <input type="reset" value="Borrar"> 
+        </p>
+    </form>          
+</body>
+</html>
