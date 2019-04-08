@@ -1,0 +1,76 @@
+/*hoja de estilos para presentar el diseño de mi formulario*/
+body {
+	margin: 0;
+	background-image: url(image.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	
+}
+
+.contenedor {
+	font-weight: normal;
+	font-family: serif;
+	width: 450px;
+	margin: auto;
+	background-color: white;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	margin-top: 170px;
+	border-radius: 7px;
+}
+
+.form-title {
+	color: #996633;
+	text-align: center;
+	margin: 0;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.form-header {
+	width: 80%;
+	background-color: #CCCC99;
+	margin-left: 40px;
+	border-radius: 3px;
+
+}
+
+.form-label {
+	font-size: 18px;
+	font-family: serif; 
+	font-weight: bold;
+	color: #996633;
+	margin-left: 2px;
+}
+
+.form-input {
+	width: 100%;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #FF99FF;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 8px;
+	border-radius: 2px;
+	font-size: 14px;
+	font-family: serif;
+	color: #000000;
+
+
+}
+
+.btn-submit {
+	width: 100%;
+	font-family: serif;
+	outline: none;
+	background: #996633;
+	font-size: 18px;
+	border: none;
+	padding: 10px 0;
+	cursor: pointer;
+	color: #FFFFFF;
+	border-radius: 8px;
+
+}
