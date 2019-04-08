@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <form id="formulario" action="php/datospost.php" method="POST">
+            <div class="form-header">
+                <h1 class="form-title">Bienvenidos</h1>
+            </div>
+            <label class="form-label">Por favor, introduzca sus datos:</label><br /><br>
+
+            <label class="form-label">Usuario</label>
+            <input type="text" id="usuario" name="usuario" class="form-input" placeholder="Ingrese su usuario">
+
+            <br><br>
+            <label for="contraseña" class="form-label">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña" class="form-input" placeholder="Ingrese su contraseña">
+
+            <p id="mensaje"></p>
+            <button type="button" class="btn-submit" onclick="verificar()" onsubmit="datos()">Ingresar</button>
+
+        </form>
+        <div id=respuesta>
+
+        </div>
+    </div>
+</body>
+
+</html>
