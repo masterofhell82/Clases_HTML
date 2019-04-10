@@ -8,6 +8,6 @@ De igual manera en el archivo app.js deben de crear un par de funciones, una de 
 • Creatividad
 • Técnica
 • Dificultad
-Quiero que tomen en cuenta que son libre de desarrolla como deseen, pero deben de tener su toque de personal.  
+Quiero que tomen en cuenta que son libre de desarrollar como deseen, pero deben de tener su toque de personal.  
 Tienen que clonarlo, desarrollarlo, subirlo a GitHub y finalmente hacer pull requests.
 ¡Muchos éxitos!
