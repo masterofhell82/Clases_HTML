@@ -15,7 +15,7 @@ Lea detenidamente los que debe realizar para tener exito en el siguiente examen:
 
 Nota: cada punto sera tomado como una sección, para ello debe aplicar una hoja de estilo y en la misma debe contener las caracteristicas que serán aplicada en las diferentes secciones, es decir, que debe mezclar HTML con PHP en toda esta evaluación, la hoja de estilo sera llamada con una de las dos sentencias mencionada en el punto 10.
 
-Nota2:Para actualizar el proyecto en su directorio local, estan una serie de paso publicado en la raiz de este proyecto. Cuando realice el pull request, por favor colocar todos sus datos. 
+Nota2: Para actualizar el proyecto en su directorio local, estan una serie de paso publicado en la raiz de este proyecto. Cuando realice el pull request, por favor colocar todos sus datos. 
 
 Se evaluara tomando en cuenta lo siguiente: 
 
