@@ -13,7 +13,9 @@ Lea detenidamente los que debe realizar para tener exito en el siguiente examen:
 9. Desarrolle una función sin parametro y otra función con parametro, ambas funciones las puede dasarrollar a su criterio(deben ser funcional), es importante resaltar que la función con parametro debe involucrar unas de las variables ya declarada. //Documentar que quiere hacer con cada función.
 10. Implenten las sentencias Include y Require en está evaluacion con los puntos anteriones. //Documentar cual es la diferencia entre ambas sentencias. 
 
-Nota: cada punto sera tomado como una sección, para ello debe aplicar una hoja de estilo y en la misma debe contener las caracteristicas que serán aplicada en las diferentes secciones, es decir, que debe mezclar HTML con PHP en toda esta evaluación, la hoja de estilo sera llamada con una de las dos sentencias mencionada en el punto 10. 
+Nota: cada punto sera tomado como una sección, para ello debe aplicar una hoja de estilo y en la misma debe contener las caracteristicas que serán aplicada en las diferentes secciones, es decir, que debe mezclar HTML con PHP en toda esta evaluación, la hoja de estilo sera llamada con una de las dos sentencias mencionada en el punto 10.
+
+Nota2:Para actualizar el proyecto en su directorio local, estan una serie de paso publicado en la raiz de este proyecto. Cuando realice el pull request, por favor colocar todos sus datos. 
 
 Se evaluara tomando en cuenta lo siguiente: 
 
