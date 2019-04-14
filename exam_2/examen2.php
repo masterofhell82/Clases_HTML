@@ -107,10 +107,10 @@
                 echo'Alguna o ninguna opcion corresponde </br>'; //impresion en caso de ser falso  + Salto de linea
             }
             //operaciones aritmeticas
-            echo'La suma de '.$f.' y '.$y.' es igual a = '.$s.'</br>';//imprime los numeros con los cuales se hace la operacion de sumar y su resultado + Salto de linea
-            echo'La resta de '.$f.' y '.$y.' es igual a = '.$r.'</br>';//imprime los numeros con los cuales se hace la operacion de restar y su resultado + Salto de linea
-            echo'La multiplicacion de '.$x.' y '.$y.' es igual a = '.$m.'</br>';//imprime los numeros con los cuales se hace la operacion de multiplicar y su resultado + Salto de linea
-            echo'La division de '.$f.' y '.$x.' es igual a = '.$d.'</br>';//imprime los numeros con los cuales se hace la operacion de dividir y su resultado + Salto de linea
+            echo'La suma de '.$f.' y '.$y.' es igual a '.$s.'</br>';//imprime los numeros con los cuales se hace la operacion de sumar y su resultado + Salto de linea
+            echo'La resta de '.$f.' y '.$y.' es igual a '.$r.'</br>';//imprime los numeros con los cuales se hace la operacion de restar y su resultado + Salto de linea
+            echo'La multiplicacion de '.$x.' y '.$y.' es igual a '.$m.'</br>';//imprime los numeros con los cuales se hace la operacion de multiplicar y su resultado + Salto de linea
+            echo'La division de '.$f.' y '.$x.' es igual a '.$d.'</br>';//imprime los numeros con los cuales se hace la operacion de dividir y su resultado + Salto de linea
             echo'</br> </br>';//2 saltos de linea
             echo '<hr>';//fin de el punto 3
         ?>
@@ -281,7 +281,7 @@
         <section><!-- seccion donde se montraran los return de las funciones (punto 9) -->
             <?php echo 'El texto para el ejemplo es: </br>'.consejos();//muestra a pantalla el return de la funcion 1
             echo 'El promedio de los numeros es: '.promedios($f,$y,$x);//muestra a pantalla el return de la funcion 2
-            echo'</br></br>';//2 saltos de linea
+            echo'</br></br></br></br></br></br>';//6 saltos de linea
             //fin de el punto 9
             ?>
         </section>
