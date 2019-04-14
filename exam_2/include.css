@@ -14,6 +14,7 @@ body {/*edita el cuerpo de el html*/ /**/
     left: 260px;/*distancia que se aleja a la izquierda de la pantalla*/
     border-radius: 50px 1px;/*poner borde redondeado a elemento*/
     box-shadow: 10px 20px #467692;/*pone sombreado*/
+    line-height: 30px;
     
 }
 .encabezado{
@@ -26,6 +27,7 @@ body {/*edita el cuerpo de el html*/ /**/
     width: 100%;/*especifica la anchura del area de contenido de un elemento*/
     padding: 35px 30px 25px;/*establece el area de relleno*/
     position: absolute;/*centrar el elemento*/
+    font-weight: bold;/*pone negrita el texto*/
 }
 
 .t_1,.t_2,.t_3,.t_4,.t_5,.t_6,.t_7,.t_8,.t_9{
@@ -33,5 +35,5 @@ body {/*edita el cuerpo de el html*/ /**/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*estabelece el tipo de letra*/
     font-size: 22px;/*establece el tamaño de las letras*/
     color: rgb(192, 23, 192);/*color de letra*/
-
+    font-weight: bold;/*pone negrita el texto*/
 }
