@@ -5,47 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Examen</title>
+    <!-- bootstrap -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <!-- jquery -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"
     ></script>
+    <!-- popper -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
       crossorigin="anonymous"
     ></script>
+    <!-- estilos locales -->
+    <link rel="stylesheet" href="css/sytle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1>Formulario</h1>
+        <form action="/action_page.php" method="post" id="contact-form">
+          <!-- campo nombre -->
+          <div class="form-group">
+            <!-- aqui se muestra el error cuando ocurrre -->
+            <div id="nameError"></div>
+            <label for="name">Nombre</label>
+            <div class="input-group">
+              <div class="input-group-addon">
+                <span class="glyphicon glyphicon-user"></span>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                value=""
+                placeholder="Nombre"
+              />
+            </div>
+          </div>
+
+          <!-- campo email -->
+          <div class="form-group">
+            <div id="emailError"></div>
+            <label for="email">Email</label>
+            <div class="input-group">
+              <div class="input-group-addon">
+                <span class="glyphicon glyphicon-envelope"></span>
+              </div>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                value=""
+                placeholder="Email"
+              />
+            </div>
+          </div>
+
+          <!-- campo telefono -->
+          <div class="form-group">
+            <div id="phoneError"></div>
+            <label for="phone">Telefono</label>
+            <div class="input-group">
+              <div class="input-group-addon">
+                <span class="glyphicon glyphicon-phone"></span>
+              </div>
+              <input
+                type="tel"
+                class="form-control"
+                id="phone"
+                value=""
+                placeholder="Telefono"
+              />
+            </div>
+          </div>
+          <button type="submit" class="btn btn-light">Enviar</button>
+          <button type="button" class="btn btn-secondary" id="cleaner">
+            Limpiar
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- bootstrap js -->
     <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <!---
-        ** Deploy Your Code **
-    -->
-  </head>
-  <body>
-    <form action="" class="form-horizontal" role="form">
-      <div class="form-group">
-        <legend>Examen</legend>
-      </div>
-
-      <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
-      <!---
-            ** Deploy Your Code **
-        -->
-
-      <div class="form-group">
-        <div class="col-sm-10 col-sm-offset-2">
-          <button type="submit" class="btn btn-primary">Ver</button>
-        </div>
-      </div>
-    </form>
+    <script src="js/app.js"></script>
   </body>
 </html>

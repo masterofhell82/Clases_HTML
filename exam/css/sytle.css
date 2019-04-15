@@ -1,1 +1,25 @@
-/* Your Code */
+/* color de fondo de la pagina */
+body {
+  background: linear-gradient(
+    141deg,
+    #9fb8ad 0%,
+    #1fc8db 51%,
+    #2cb5e8 75%
+  ); /*hacer del fondo un gradiente*/
+  height: 100vh; /*el fondo ocupa el 100% del viewport*/
+}
+
+/* posicionar formulario al centro */
+.form-box {
+  width: 50%;
+  margin: auto;
+  padding-top: 15%;
+}
+
+/* estilos para la cabecera del formulario */
+.form-box h1 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
