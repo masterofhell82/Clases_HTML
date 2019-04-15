@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Examen</title>
+    <title>Formulario</title>
     <!-- bootstrap -->
     <link
       rel="stylesheet"
@@ -25,13 +25,13 @@
       crossorigin="anonymous"
     ></script>
     <!-- estilos locales -->
-    <link rel="stylesheet" href="css/sytle.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="container">
       <div class="form-box">
         <h1>Formulario</h1>
-        <form action="/action_page.php" method="post" id="contact-form">
+        <form action="action_page.php" method="post" id="contact-form">
           <!-- campo nombre -->
           <div class="form-group">
             <!-- aqui se muestra el error cuando ocurrre -->
@@ -47,6 +47,7 @@
                 id="name"
                 value=""
                 placeholder="Nombre"
+                name="name"
               />
             </div>
           </div>
@@ -65,6 +66,7 @@
                 id="email"
                 value=""
                 placeholder="Email"
+                name="email"
               />
             </div>
           </div>
@@ -83,13 +85,18 @@
                 id="phone"
                 value=""
                 placeholder="Telefono"
+                name="phone"
               />
             </div>
           </div>
-          <button type="submit" class="btn btn-light">Enviar</button>
-          <button type="button" class="btn btn-secondary" id="cleaner">
-            Limpiar
-          </button>
+          <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-light">
+              Enviar
+            </button>
+            <button type="button" class="btn btn-secondary" id="cleaner">
+              Limpiar
+            </button>
+          </div>
         </form>
       </div>
     </div>
