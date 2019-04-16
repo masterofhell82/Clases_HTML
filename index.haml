@@ -1,0 +1,11 @@
+.form-overlay
+#form-container.icon.fa.fa-pencil
+  %span#form-close.icon.fa.fa-close
+  #form-content
+    #form-head
+    %form
+      %input.input.name{:type => "text", :name => "user_name", :placeholder => "Tu nombre por favor"}
+      %input.input.email{:type => "text", :name => "user_email", :placeholder => "A contact email"}
+  
+      %textarea.input.message{:placeholder => "¿Cómo puedo ayudar?"}
+      %input.input.submit{:type => "submit", :value => "Enviar mensaje"}
