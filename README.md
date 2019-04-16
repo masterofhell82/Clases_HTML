@@ -15,3 +15,19 @@ La siguiente tiene como objetivo poner en práctica dos temas desarrollado en cl
 9.	Por último pulsar el botón [New pull request] para enviar a mi repositorio el trabajo relacionado. 
 10.	Debe aparecer un los cambios realizado por el participante, seguidamente debe presionar el botón [Create pull request]. Colocar el titulo Su nombre y apellido, y en el comentario, lo que realizo en el archivo.html.
 11.	Una vez completado los datos debe presionar [Create pull request].
+
+# Como Actualizar si ya realizaron el Fork
+ 
+1.- $ git clone https://github.com/su_nombre_de_usuario/Clases_HTML.git #No es necesario si ya lo tienen
+
+2.- $ cd Clases_HTML #De acceder al directorio que estan trabajando
+
+3.- $ git remote add upstream https://github.com/masterofhell82/Clases_HTML.git 
+
+4.  $ git fetch upstream
+
+5.  $ git fetch upstream #Repetir
+
+6.  $ git merge upstream/master
+
+7.  Para salir del editor vi [:q!] 
