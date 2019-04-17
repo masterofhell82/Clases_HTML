@@ -1,0 +1,27 @@
+/* normalizando estilos */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* color de fondo de la pagina */
+body {
+  background: linear-gradient(
+    -35deg,
+    rgb(254, 252, 234) 52%,
+    #9999cc 50%
+  ); /*hacer del fondo un gradiente*/
+  height: 100vh; /*el fondo ocupa el 100% del viewport*/
+}
+
+/* estilos para la cabecera del formulario */
+.tarjetas h1 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
