@@ -29,16 +29,54 @@
                 <div class="col-sm-4">
                     <div class="card border-dark">
                         <h5 class="card-header">Parte 1</h5>
-                        <img src="http://lorempixel.com/250/150/technics/1" class="card-img-top" alt="foto de muestra">
+                        <img src="http://lorempixel.com/400/200/technics/1" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
+                            <h5 class="card-title">Crear 10 variables. Declaradas e inicializadas</h5>
                             <p class="card-text">
-                                <div class="form-group">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
-                                </div>
-                            </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <?php
+                                /*----------Parte 1 | Crear 10 variables. Declaradas e inicializadas----------*/
+
+                                // type integer - almacenan numeros enteros
+                                $entero = 10;
+                                $entero2 = 7;
+                                $entero3 = 12;
+                                // fin integer
+                                //type float - almacenan decimales
+                                $flotante = 6.43;
+                                $flotante2 = 3.76;
+                                $flotante3 = 2.90;
+                                // fin float
+                                // type string - almacenan cadena de caracteres
+                                $texto = "hola";
+                                $texto2 = "mundo";
+                                // fin string
+                                // type boolean - almacenan valores booleanos (verdadero o falso)
+                                $bool1 = true;
+                                $bool2 = false;
+                                // fin boolean
+                                ?>
+                                <table class="table table-striped table-bordered">
+                                    <thead class="thead-light">
+                                        <tr>
+                                            <th scope="col">Campos</th>
+                                            <th scope="col">Valores</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Enteros</th>
+                                            <td><?= $entero . " | " . $entero2 . " | " . $entero3 ?></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">flotantes</th>
+                                            <td><?= $flotante . " | " . $flotante2 . " | " . $flotante3 ?></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">textos</th>
+                                            <td><?= $flotante . " | " . $flotante2  ?></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                         </div>
                     </div>
                 </div>
@@ -46,7 +84,7 @@
                 <div class="col-sm-4">
                     <div class="card border-dark">
                         <h5 class="card-header">Parte 2</h5>
-                        <img src="http://lorempixel.com/250/150/technics/2" class="card-img-top" alt="foto de muestra">
+                        <img src="http://lorempixel.com/400/200/technics/2" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
                             <p class="card-text">
                                 <div class="form-group">
@@ -63,7 +101,7 @@
                 <div class="col-sm-4">
                     <div class="card border-dark">
                         <h5 class="card-header">Parte 3</h5>
-                        <img src="http://lorempixel.com/250/150/technics/3" class="card-img-top" alt="foto de muestra">
+                        <img src="http://lorempixel.com/400/200/technics/3" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
                             <p class="card-text">
                                 <div class="form-group">
@@ -84,7 +122,7 @@
                 <div class="col-sm-4">
                     <div class="card border-dark">
                         <h5 class="card-header">Parte 4</h5>
-                        <img src="http://lorempixel.com/250/150/technics/4" class="card-img-top" alt="foto de muestra">
+                        <img src="http://lorempixel.com/400/200/technics/4" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
                             <p class="card-text">
                                 <div class="form-group">
@@ -101,7 +139,7 @@
                 <div class="col-sm-4">
                     <div class="card border-dark">
                         <h5 class="card-header">Parte 5</h5>
-                        <img src="http://lorempixel.com/250/150/technics/5" class="card-img-top" alt="foto de muestra">
+                        <img src="http://lorempixel.com/400/200/technics/5" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
                             <p class="card-text">
                                 <div class="form-group">
@@ -118,7 +156,7 @@
                 <div class="col-sm-4">
                     <div class="card border-dark">
                         <h5 class="card-header">Parte 6</h5>
-                        <img src="http://lorempixel.com/250/150/technics/6" class="card-img-top" alt="foto de muestra">
+                        <img src="http://lorempixel.com/400/200/technics/6" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
                             <p class="card-text">
                                 <div class="form-group">
@@ -138,7 +176,7 @@
                 <div class="col-sm-4">
                     <div class="card border-dark">
                         <h5 class="card-header">Parte 7</h5>
-                        <img src="http://lorempixel.com/250/150/technics/7" class="card-img-top" alt="foto de muestra">
+                        <img src="http://lorempixel.com/400/200/technics/7" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
                             <p class="card-text">
                                 <div class="form-group">
@@ -155,7 +193,7 @@
                 <div class="col-sm-4">
                     <div class="card border-dark">
                         <h5 class="card-header">Parte 8</h5>
-                        <img src="http://lorempixel.com/250/150/technics/8" class="card-img-top" alt="foto de muestra">
+                        <img src="http://lorempixel.com/400/200/technics/8" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
                             <p class="card-text">
                                 <div class="form-group">
@@ -172,7 +210,7 @@
                 <div class="col-sm-4">
                     <div class="card border-dark">
                         <h5 class="card-header">Parte 9</h5>
-                        <img src="http://lorempixel.com/250/150/technics/9" class="card-img-top" alt="foto de muestra">
+                        <img src="http://lorempixel.com/400/200/technics/9" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
                             <p class="card-text">
                                 <div class="form-group">
@@ -190,28 +228,7 @@
         </div>
     </div>
 
-    <?php
-    /*----------Parte 1 | Crear 10 variables. Declaradas e inicializadas----------*/
 
-    // type integer - almacenan numeros enteros
-    $entero = 10;
-    $entero2 = 7;
-    $entero3 = 12;
-    // fin integer
-    //type float - almacenan decimales
-    $flotante = 6.43;
-    $flotante2 = 3.76;
-    $flotante3 = 2.90;
-    // fin float
-    // type string - almacenan cadena de caracteres
-    $texto = "hola";
-    $texto2 = "mundo";
-    // fin string
-    // type boolean - almacenan valores booleanos (verdadero o falso)
-    $bool1 = true;
-    $bool2 = false;
-    // fin boolean
-    ?>
 
     <?php
 
