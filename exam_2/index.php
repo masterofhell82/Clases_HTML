@@ -368,6 +368,38 @@
                     </div>
                 </div>
             </div>
+            <div class="row p-3">
+                <div class="col-sm-4">
+                    <div class="card border-dark">
+                        <h5 class="card-header">Parte 8</h5>
+                        <img src="http://lorempixel.com/400/200/technics/10" class="card-img-top" alt="foto de muestra">
+                        <div class="card-body">
+                            <h5 class="card-title">Sentencia switch</h5>
+                            Con esta sentencia se busca imprimir el valor de la variable <b>$opcion</b>
+                            <p class="card-text">
+                                <?php 
+                                $opcion = 3;
+                                switch ($opcion) {
+                                    case 1:
+                                        echo "el valor de la variable es $opcion";
+                                        break;
+                                    case 2:                                        
+                                        echo "el valor de la variable es $opcion";
+                                        break;
+                                    case 3:                                    
+                                        echo "el valor de la variable es $opcion";
+                                        break;
+                                    
+                                    default:                                        
+                                        echo "el valor de la variable es $opcion y no esta dentro de los case";
+                                        break;
+                                }
+                                ?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
