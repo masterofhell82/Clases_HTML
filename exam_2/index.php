@@ -283,17 +283,18 @@
 
                 <div class="col-sm-4">
                     <div class="card border-dark">
-                        <h5 class="card-header">Parte 8</h5>
+                        <h5 class="card-header">Parte 5</h5>
                         <img src="http://lorempixel.com/400/200/technics/8" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
+                            <h5 class="card-title">Imprimir valores de arrays segun su indice</h5>
                             <p class="card-text">
-                                <div class="form-group">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
-                                </div>
+                                <?php
+                                echo $numeros[1] . '-> imprimiendo indice 1 del arreglo <b>$numeros</b><br/>';
+                                echo $edades[0] . '-> imprimiendo indice 0 del arreglo <b>$edades</b><br/>';
+                                echo $carros[4] . '-> imprimiendo indice 4 del arreglo <b>$carros</b><br/>';
+                                echo $nombres[5] . '-> imprimiendo indice 5 del arreglo <b>$nombres</b><br/>'; //NOTA: se solicita el indice 6, pero en el punto cuatro se indico que los arreglos tuvieran 6 elementos cada uno, asi que el indice maximo es 5. Debido a esto es el colocado
+                                ?>
                             </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
