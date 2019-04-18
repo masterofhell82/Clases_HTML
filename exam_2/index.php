@@ -22,8 +22,10 @@
 
 <body>
     <div class="container">
-        <div class="tarjetas pt-5">
-            <h1>Evaluacion PHP</h1>
+        <nav class="navbar fixed-top navbar-dark bg-secondary">
+            <h1 class="mx-auto">Evaluacion PHP</h1>
+        </nav>
+        <div class="tarjetas pt-5 mt-5">
             <div class="row p-3">
 
                 <div class="col-sm-4">
@@ -301,17 +303,67 @@
 
                 <div class="col-sm-4">
                     <div class="card border-dark">
-                        <h5 class="card-header">Parte 9</h5>
+                        <h5 class="card-header">Parte 7</h5>
                         <img src="http://lorempixel.com/400/200/technics/9" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
+                            <h5 class="card-title">Array asosiativo</h5>
+                            Para imprimir este arrreglo usamos el ciclo foreach si hubieramos usado el ciclo for, hubieramos tenido que declarar un contador, una condición y el operador de incremento para el contador, en cambio con este ciclo solo le indicamos el arreglo a recorrer y como se llamara la variable para iterar cada valor.
                             <p class="card-text">
-                                <div class="form-group">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
-                                </div>
+                                <?php
+                                //Arreglo asociativo
+                                $libros[0] = [
+                                    'titulo' => "el señor de los anillos",
+                                    'fecha_publicacion' => '05/07/2015',
+                                    'autor' => 'carlos perez'
+                                ];
+                                $libros[1] = [
+                                    'titulo' => 'cancion de hielo y fuego',
+                                    'fecha_publicacion' => '14/12/2007',
+                                    'autor' => 'pedro marquez'
+                                ];
+                                $libros[2] = [
+                                    'titulo' => 'bajo la misma estrella',
+                                    'fecha_publicacion' => '01/03/2010',
+                                    'autor' => 'andres gonzalez'
+                                ];
+                                $libros[3] = [
+                                    'titulo' => '50 sombras de gray',
+                                    'fecha_publicacion' => '13/01/1997',
+                                    'autor' => 'diana garcia'
+                                ];
+                                $libros[4] = [
+                                    'titulo' => 'padre rico, padre pobre',
+                                    'fecha_publicacion' => '15/04/2011',
+                                    'autor' => 'maria salazar'
+                                ];
+                                ?>
+                                <h6 class="text-muted card-subtitle">libros</h6>
+                                <table class="table table-striped table-bordered">
+                                    <thead class="thead-light">
+                                        <tr>
+                                            <th scope="col">titulo</th>
+                                            <th scope="col">fecha pub</th>
+                                            <th scope="col">autor</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <?php
+                                        //Imprimiendo en pantalla usando el ciclo foreach
+                                        foreach ($libros as $libro) {
+                                            echo "
+                                            <tr>
+                                                <td> " . $libro['titulo'] . "</td>
+                                                <td> " . $libro['fecha_publicacion'] . "</td>
+                                                <td> " . $libro['autor'] . "</td>
+                                            </tr>
+                                            ";
+                                        }
+                                        ?>
+                                    </tbody>
+                                </table>
+
+
                             </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
