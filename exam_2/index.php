@@ -77,7 +77,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row">Booleanos</th>
-                                            <td><?=  " true | false" ?></td>
+                                            <td><?= " true | false" ?></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -197,17 +197,86 @@
             <div class="row p-3">
                 <div class="col-sm-4">
                     <div class="card border-dark">
-                        <h5 class="card-header">Parte 7</h5>
+                        <h5 class="card-header">Parte 4 y 6</h5>
                         <img src="http://lorempixel.com/400/200/technics/7" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
+                            <h5 class="card-title">Crear 4 arreglos con 6 elementos cada uno y recorrerlos</h5>
                             <p class="card-text">
-                                <div class="form-group">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
-                                </div>
+                                <?php
+                                $numeros = [1, 2, 3, 4, 5, 6];  //tipo integer
+                                $edades = [51, 44, 38, 25, 17, 40];  //tipo integer
+                                $carros = array('bmw', 'nissan', 'hummer', 'chevrolet', 'chery', 'toyota');  //tipo string
+                                $nombres = array('pedro', 'jose', 'maria', 'andres', 'diana', 'adriana');  // tipo string
+
+                                ?>
+                                <table class="table table-striped table-bordered">
+                                    <thead class="thead-light">
+                                        <tr>
+                                            <th scope="col">Arreglo</th>
+                                            <th scope="col">Valores</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">numeros</th>
+                                            <td>
+                                                <?php
+                                                //El ciclo for recibe 3 operaciones, una asignacion a una variable contador, una condicion la cual indicara si el siclo se repite o no y una accion que se generara al terminar cada ciclo, en este caso incremento de la variable contador lo cual es lo mas comun.
+                                                //estamos usando un operador de incremento el cual es "++" y lo que hace es aumentar en 1 la variable idincada
+                                                for ($i = 0; $i < count($numeros); $i++) { //con count obtenemos el tamaño del array
+                                                    //saco el valor de cada elemento
+                                                    echo $numeros[$i];
+                                                    if ($i != count($numeros) - 1) //por estetica, no imprimir el ultimo pie
+                                                        echo " | ";
+                                                }
+                                                ?>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">edades</th>
+                                            <td>
+                                                <?php
+                                                $i = 0; //declarando el contador
+                                                //el ciclo while recibe una condicion la cual mientras sea verdadera se repetira el ciclo, cabe destacar que dentro del mismo debe existir alguna operacion que cambie el estado de esta condicion, ya que si no lo hacemos el ciclo se repetira de manera infinita
+                                                while ($i < count($edades)) { //con count obtenemos el tamaño del array
+                                                    //saco el valor de cada elemento
+                                                    echo $edades[$i];
+                                                    if ($i != count($numeros) - 1) //por estetica, no imprimir el ultimo pie
+                                                        echo " | ";
+                                                    $i++; //utilizamos el operador de incremento para aumentar la vairable contador
+                                                }
+                                                ?>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">carros</th>
+                                            <td>
+                                                <?php
+                                                //el bucle foreach se encarga de recorrer cada elemento del array $carros y los interpreta como $valor para iterarlo dentro del ciclo
+                                                foreach ($carros as $valor) {
+                                                    echo $valor;
+                                                    if ($valor != end($carros)) //por estetica, no imprimir el ultimo pie
+                                                        echo " | ";
+                                                }
+                                                ?>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Nombres</th>
+                                            <td>
+                                                <?php
+                                                //el bucle foreach se encarga de recorrer cada elemento del array $carros y los interpreta como $valor para iterarlo dentro del ciclo
+                                                foreach ($nombres as $valor) {
+                                                    echo $valor;
+                                                    if ($valor != end($nombres)) //por estetica, no imprimir el ultimo pie
+                                                        echo " | ";
+                                                }
+                                                ?>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
