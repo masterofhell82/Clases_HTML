@@ -75,42 +75,54 @@
                                             <th scope="row">textos</th>
                                             <td><?= $flotante . " | " . $flotante2  ?></td>
                                         </tr>
+                                        <tr>
+                                            <th scope="row">Booleanos</th>
+                                            <td><?=  " true | false" ?></td>
+                                        </tr>
                                     </tbody>
                                 </table>
+                            </p>
                         </div>
                     </div>
                 </div>
-
+                <!-- ----------------------Parte 2 y 3| realizar 5 condiciones -->
                 <div class="col-sm-4">
                     <div class="card border-dark">
                         <h5 class="card-header">Parte 2</h5>
                         <img src="http://lorempixel.com/400/200/technics/2" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
+                            <h5 class="card-title">Condicionales</h5>
+
                             <p class="card-text">
-                                <div class="form-group">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
-                                </div>
+
+                                <?php
+
+
+                                echo '<p>con el operador de comparacion " == " verificamos que el valor almacenado en <b>$entero</b> sea igual a el mismo, en dado caso que esto sea cierto la condicion devuelve true y por ende el condicional ejecuta el codigo perteneciente al bloque if</p> ';
+
+                                if ($entero == $entero) {
+                                    echo "<b>$entero es igual a $entero</b> <br/>";
+                                }
+                                ?>
                             </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm-4">
                     <div class="card border-dark">
-                        <h5 class="card-header">Parte 3</h5>
+                        <h5 class="card-header">Parte 2b</h5>
                         <img src="http://lorempixel.com/400/200/technics/3" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
+                            <h5 class="card-title">Condicionales</h5>
                             <p class="card-text">
-                                <div class="form-group">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
-                                </div>
+                                <?php
+                                echo '<p>con el operador de comparacion "!=" verificamos que el valor almacenado en <b>$entero</b> sea diferente al de <b>$entero2</b>, en dado caso que esto sea cierto la condicion devuelve true y por ende el condicional ejecuta el codigo perteneciente al bloque de</p>';
+                                if ($entero != $entero2) {
+                                    echo  "<b>$entero es diferente a $entero2</b> <br/>";
+                                }
+                                ?>
                             </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -121,51 +133,61 @@
 
                 <div class="col-sm-4">
                     <div class="card border-dark">
-                        <h5 class="card-header">Parte 4</h5>
+                        <h5 class="card-header">Parte 3</h5>
                         <img src="http://lorempixel.com/400/200/technics/4" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
+                            <h5 class="card-title">Condicionales y operadores aritmeticos</h5>
                             <p class="card-text">
-                                <div class="form-group">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
-                                </div>
+                                <?php
+                                echo '<p>con el operador aritmetico "*" multiplicamos el valor almacenado en <b>$entero</b> con el de <b>$entero1</b> y luego con el operador de comparacion ">" verificamos que el resultado de esa multiplicacion sea mayor que el valor almacenado en <b>$entero2</b>. en caso de ser asi se ejecuta el codigo que esta dentro del bloque del if</p>';
+                                if ($entero * $entero2 > $entero3) {
+                                    echo "<b>$entero*$entero2 es mayor que $entero2</b><br/>";
+                                }
+                                ?>
                             </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm-4">
                     <div class="card border-dark">
-                        <h5 class="card-header">Parte 5</h5>
+                        <h5 class="card-header">Parte 3b</h5>
                         <img src="http://lorempixel.com/400/200/technics/5" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
+                            <h5 class="card-title">Condicionales y operadores de comparación</h5>
                             <p class="card-text">
-                                <div class="form-group">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
-                                </div>
+                                <?php
+                                echo '<p>con el operador de comparacion "<" verificamos que el valor almacenado en <b>$flotante</b> sea menor al de <b>$flotante2</b>, en dado caso que esto sea cierto la condicion devuelve true y por ende el condicional ejecuta el codigo perteneciente al bloque if</p>';
+                                if ($flotante2 < $flotante) {
+                                    echo "<b>$flotante2 es menor que $flotante</b> <br/>";
+                                }
+                                ?>
                             </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm-4">
                     <div class="card border-dark">
-                        <h5 class="card-header">Parte 6</h5>
+                        <h5 class="card-header">Parte 3c</h5>
                         <img src="http://lorempixel.com/400/200/technics/6" class="card-img-top" alt="foto de muestra">
                         <div class="card-body">
+                            <h5 class="card-title">Condicionales y operadores de logicos</h5>
                             <p class="card-text">
-                                <div class="form-group">
-                                    <label for=""></label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
-                                </div>
+                                <?php
+                                echo '<p>con el operador <b>&&</b> generamos un AND logico, los valores a comparar deben ser del tipo boolean y si el resultado de esta operacion logica devuelve true se ejecuta el codigo dentro del bloque if</p>';
+                                // usamos el operator ! para negar la condicion y entrar en el bloque de codigo
+                                if (!($bool1 && $bool2)) {
+                                    echo  "<b>true AND false da como resultado false </b><br/>";
+                                }
+
+                                echo '<br/><p>con el operador <b>||</b> generamos un OR logico, los valores a comparar deben ser del tipo boolean y si el resultado de esta operacion logica devuelve true se ejecuta el codigo dentro del bloque if</p>';
+
+                                if ($bool1 || $bool2) {
+                                    echo "<b>true OR false da como resultado true</b>";
+                                }
+                                ?>
                             </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -230,40 +252,7 @@
 
 
 
-    <?php
 
-    /*----------------------Parte 2 y 3| realizar 5 condiciones Usuando operadores de comparacion,logicos y aritmeticos----------------------*/
-
-    //con el operador de comparacion "==" verificamos que el valor almacenado en $entero sea igual al de $entero1, en dado caso que esto sea cierto la condicion devuelve true y por ende el condicional ejecuta el codigo perteneciente al bloque if
-    if ($entero == $entero2) {
-        echo "$entero es igual a $entero1";
-    }
-    //con el operador de comparacion "!=" verificamos que el valor almacenado en $entero2 sea diferente al de $entero3, en dado caso que esto sea cierto la condicion devuelve true y por ende el condicional ejecuta el codigo perteneciente al bloque if
-    if ($entero2 != $entero3) {
-        echo "$entero2 es diferente a $entero3";
-    }
-
-    //con el operador aritmetico "*" multiplicamos el valor almacenado en $entero con el de $entero1 y luego con el operador de comparacion "<" verificamos que el resultado de esa multiplicacion sea menor que el valor almacenado en entero2, en caso de ser asi se ejecuta el codigo que esta dentro del bloque del if
-    if ($entero * $entero2 < $entero3) {
-        echo "$entero*$entero2 es menor que $entero2";
-    }
-    //con el operador de comparacion ">" verificamos que el valor almacenado en $flotante sea mayor al de $flotante2, en dado caso que esto sea cierto la condicion devuelve true y por ende el condicional ejecuta el codigo perteneciente al bloque if
-    if ($flotante > $flotante2) {
-        echo "$flotante es mayor que $flotante2";
-    }
-    //con el operador && generamos un AND logico, los valores a comparar deben ser del tipo boolean y si el resultado de esta operacion logica devuelve true se ejecuta el codigo dentro del bloque if
-    if ($bool1 && $bool2) {
-        echo "$bool1 AND $bool2 da como resultado " . $bool1 && $bool2;
-    }
-    //con el operador || generamos un OR logico, los valores a comparar deben ser del tipo boolean y si el resultado de esta operacion logica devuelve true se ejecuta el codigo dentro del bloque if
-    if ($bool1 || $bool2) {
-        echo "$bool1 OR $bool2 da como resultado " . $bool1 || $bool2;
-    }
-
-
-
-
-    ?>
 </body>
 
 </html>

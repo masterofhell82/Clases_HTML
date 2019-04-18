@@ -19,7 +19,7 @@ body {
 }
 
 /* estilos para la cabecera del formulario */
-.tarjetas h1 {
+.tarjetas > h1 {
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
