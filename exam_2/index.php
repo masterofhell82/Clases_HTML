@@ -368,6 +368,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="row p-3">
                 <div class="col-sm-4">
                     <div class="card border-dark">
@@ -399,6 +400,32 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-4">
+                    <div class="card border-dark">
+                        <h5 class="card-header">Parte 9</h5>
+                        <img src="http://lorempixel.com/400/200/technics/3" class="card-img-top" alt="foto de muestra">
+                        <div class="card-body">
+                            <h5 class="card-title">Funnciones</h5>
+                            <p class="card-text">
+                            <?php //función sin parámetro, para imprimir un texto
+                                function print_texto(){
+                                    return 'este texto fue devuelto por una funcion sin parametros. <br/>';
+                                }
+
+                                echo print_texto() . "<br>";
+                                
+                                //calcular un promedio de las variables
+                                function promedio($var1,$var2,$var3){
+                                    $valor = ($var1+$var2+$var3)/3;
+                                    echo "el promedio de $var1+$var2+$var3 es <b>" . round($valor, 2) . "</b>";
+                                }
+                                promedio($entero,$entero2,$entero3);
+                            ?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
 
         </div>
