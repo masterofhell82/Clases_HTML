@@ -1,4 +1,6 @@
 <?php
+
+//funcion que sera llamada para abrir la conexion. regresa el objeto msqli con la conexion
 function coneccion()
 {
 	//variables para conectar con la base de datos
@@ -10,10 +12,10 @@ function coneccion()
 	$conn = new mysqli($host, $username, $password, $database); //funcion que conecta con mysql recibiendo por parametros las variables indicadas
 	if ($conn->connect_errno) {
 		echo "
-			No se pudo conectar con la base   de datos.
+			No se pudo conectar con la base de datos.
 			\n Errno: $conn->connect_errno
 			Error: $conn->connect_error 
-		"; //lanzar un alert informando que no se pudo conectar
+		";
 		exit;
 	}
 	return $conn;
