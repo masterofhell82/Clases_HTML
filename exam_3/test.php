@@ -12,6 +12,7 @@
 
 <body>
   <a id=link href="#" onclick="traerDatos()">Recargar datos</a>
+  <a id=link href="#" onclick="crearUsuario()">Crear nuevo usuario</a>
   <table class="table table-striped mt-2 table-users">
     <thead>
       <tr>
@@ -23,17 +24,6 @@
     </thead>
     <tbody>
       <tr>
-        <td>juanito perez</td>
-        <td>28 años</td>
-        <td>prueba@test.com</td>
-        <td>
-          <button class="btn btn-primary">
-            Editar
-          </button>
-          <button class="btn btn-danger">
-            Eliminar
-          </button>
-        </td>
       </tr>
     </tbody>
   </table>
