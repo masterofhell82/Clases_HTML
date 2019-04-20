@@ -41,6 +41,7 @@
         <table class="table-users table-bordered table table-striped mt-2">
             <thead>
                 <tr>
+                    <th>Id</th>
                     <th>Nombres</th>
                     <th>Edad</th>
                     <th>Correo</th>
