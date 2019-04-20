@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -20,25 +20,29 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- js local -->
     <script src="app.js"></script>
-
-    <?php
-    require("app.php"); // require para que no se ejecute las proximas acciones, en caso de error o  de no existir el archivo
-    ?>
 </head>
 
 <body>
+    <!-- barra de navegacion -->
     <nav class="navbar fixed-top navbar-dark bg-dark">
+        <!-- titulo centrado -->
         <h1 class="mx-auto text-light">CRUD PHP</h1>
     </nav>
+    <!-- contenedor principal -->
     <div class="container crud-table">
+        <!-- boton de crear usuario a la derecha -->
         <div class="clearfix">
             <div class="form-inline float-right">
+                <!-- cuando se pulsa el boton se llama a crearUsuario() -->
                 <button class="btn btn-success" onclick="crearUsuario()">
+                    <!-- icono de añadir -->
                     <i class="fas fa-user-plus"></i><span class="ml-1">Añadir usuario</span>
                 </button>
             </div>
         </div>
-        <table class="table-users table-bordered table table-striped mt-2">
+        <!-- tabla para mostrar los datos bordeada y con margin top 2em -->
+        <table class="table-users table-bordered table mt-2">
+            <!-- cabecera de la tabla -->
             <thead>
                 <tr>
                     <th>Id</th>
@@ -48,7 +52,8 @@
                     <th>Acciones</th>
                 </tr>
             </thead>
-            <tbody class>
+            <!-- en este elemento tbody la funcion de javascript cargarDatos() se encargara de insertar los datos en la tabla-->
+            <tbody>
             </tbody>
         </table>
     </div>
