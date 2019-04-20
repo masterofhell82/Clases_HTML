@@ -33,13 +33,14 @@ function traerDatos()
     $result = $conn->query($query);
     while ($res = $result->fetch_assoc()) {
         if ($res["id"] > 0) {
+            echo "<tr scoped=row>" . $res['id'] . "</tr>";
             echo "<tr id='user" . $res['id'] .  "'>";
             echo "<td class='name'>" . $res['name'] . "</td>";
             echo "<td class='age'>" . $res['age'] . "</td>";
             echo "<td class='email'>" . $res['email'] . "</td>";
             echo "<td>
-                <button class='btn-edit' onclick='editarUsuario(" . $res['id'] . ")'>Edit</button> | 
-                <button class='btn-delete' onclick='eliminarUsuario(" . $res["id"] . ")'>Delete</button>
+                <button class='btn-edit btn btn-primary' onclick='editarUsuario(" . $res['id'] . ")'>Edit</button> 
+                <button class='btn-delete btn btn-danger' onclick='eliminarUsuario(" . $res["id"] . ")'>Delete</button>
               </td>";
             echo "<tr>";
         }
