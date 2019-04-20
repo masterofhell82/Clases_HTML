@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <a id=link href="#" onclick="ir()">Ejecutar función PHP</a>
+  <a id=link href="#" onclick="traerDatos()">Recargar datos</a>
   <table class="table table-striped mt-2 table-users">
     <thead>
       <tr>
