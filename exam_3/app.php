@@ -47,8 +47,8 @@ function traerDatos()
             echo "<td class='age'>" . $res['age'] . "</td>"; //almacena la edad de cada registro
             echo "<td class='email'>" . $res['email'] . "</td>"; //almacena el email de cada registro
             echo "<td>
-                <button class='btn-edit btn btn-primary' onclick='editarUsuario(" . $res['id'] . ")'>Edit</button> 
-                <button class='btn-delete btn btn-danger' onclick='eliminarUsuario(" . $res["id"] . ")'>Delete</button>
+                <button class='btn-edit btn btn-primary' onclick='editarUsuario(" . $res['id'] . ")'><span>Editar </span><i class=' fas fa-user-edit'></i></button> 
+                <button class='btn-delete btn btn-danger' onclick='eliminarUsuario(" . $res["id"] . ")'><span>Eliminar </span><i class=' fas fa-user-minus'></i></button>
               </td>"; //botones para añadir y eliminar registros que al hacer click llaman a funciones en javascript
             echo "<tr>";
         }

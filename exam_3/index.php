@@ -35,8 +35,9 @@
             <div class="form-inline float-right">
                 <!-- cuando se pulsa el boton se llama a crearUsuario() -->
                 <button class="btn btn-success" onclick="crearUsuario()">
+                    <span class="ml-1">Añadir usuario </span>
                     <!-- icono de añadir -->
-                    <i class="fas fa-user-plus"></i><span class="ml-1">Añadir usuario</span>
+                    <i class="fas fa-user-plus"></i>
                 </button>
             </div>
         </div>
