@@ -1,3 +1,4 @@
+<!-- funcion para actulizar yn regusitro de la base de datos   -->
 <?php
 
 if(!empty($_POST)){

@@ -1,3 +1,4 @@
+<!-- llama la vista del formulario para agregar valores dentro de la base de datos -->
 <?php
 include "conexion.php";
 $user_id=null;

@@ -1,4 +1,4 @@
-
+<!-- genera la vista de busqueda  -->
 <html>
 	<head>
 		<title>.: CRUD :.</title>

@@ -1,3 +1,4 @@
+<!-- hace una busqueda destro de la base con los parametros dados en la navbar -->
 <?php
 
 include "conexion.php";

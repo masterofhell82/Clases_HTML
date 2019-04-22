@@ -1,3 +1,4 @@
+<!-- barra de navegacion dond se esucnuentra la barra de busqueda y el boton crub de inicio -->
 <nav class="navbar navbar-default" role="navigation">
 <div class="container">
 

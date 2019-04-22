@@ -1,3 +1,4 @@
+<!-- funcion para agregar valores dentro de la base -->
 <?php
 
 if(!empty($_POST)){

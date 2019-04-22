@@ -1,4 +1,4 @@
-
+<!-- genera la vista de edicion  -->
 <html>
 	<head>
 		<title>.: CRUD :.</title>

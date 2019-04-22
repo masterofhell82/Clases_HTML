@@ -1,4 +1,4 @@
-
+<!-- pagina principal, se encunetar la tabla y lo que tenemos reguistrado en le base de datos -->
 <html>
 	<head>
 		<title>.: CRUD :.</title>

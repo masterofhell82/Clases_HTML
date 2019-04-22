@@ -1,3 +1,4 @@
+<!-- conexion a la base de datos -->
 <?php
 $host="localhost";
 $user="root";

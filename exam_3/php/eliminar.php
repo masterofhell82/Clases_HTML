@@ -1,3 +1,4 @@
+<!-- funcion para eliminar valores de la base de datos  -->
 <?php
 
 if(!empty($_GET)){

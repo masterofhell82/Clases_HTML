@@ -1,3 +1,4 @@
+<!-- traemos de la base de datos los valores reguistrados para mostrar en la tabla -->
 <?php
 
 include "conexion.php";
