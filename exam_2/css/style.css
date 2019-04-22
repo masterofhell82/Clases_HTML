@@ -1,0 +1,30 @@
+/* normalizando estilos */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* color de fondo de la pagina */
+body {
+  background: linear-gradient(
+    -35deg,
+    rgb(254, 252, 234) 52%,
+    #9999cc 50%
+  ); /*hacer del fondo un gradiente*/
+  /* no se repite el fondo y se queda estatico */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; /*el fondo ocupa el 100% del viewport*/
+}
+
+/* estilos para la cabecera del formulario */
+.navbar > h1 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}

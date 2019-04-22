@@ -1,0 +1,25 @@
+/* color de fondo de la pagina */
+body {
+  background: linear-gradient(
+    141deg,
+    #9fb8ad 0%,
+    #1fc8db 51%,
+    #2cb5e8 75%
+  ); /*hacer del fondo un gradiente*/
+  height: 100vh; /*el fondo ocupa el 100% del viewport*/
+}
+
+/* se posiciona al centro el elemento info, el cual almacena el titulo la tabla y el boton de regresar */
+.info {
+  width: 50%;
+  margin: auto;
+  padding-top: 10%;
+}
+
+/* estilos para la cabecera del formulario */
+.info h1 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
