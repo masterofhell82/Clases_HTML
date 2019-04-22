@@ -1,0 +1,30 @@
+/* aqui se realizaron los estilos para la pagina */
+
+body{
+	background: url(../image/FondP.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size : cover;
+	color: blanchedalmond; 
+}
+
+h1{
+	color:blue;
+	text-align-last: center;
+}
+h2{
+	color:blue;
+	
+}
+h3{
+	color:beige;
+	text-align-last: center;
+}
+.formulario__label{
+    color:white;
+}
+.form-control{
+    color:rgba(0, 0, 0, 0.514);
+}
+.Diana1{
+    text-align-last:right;
+}

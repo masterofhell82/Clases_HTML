@@ -1,4 +1,4 @@
-# Examen 
+﻿# Examen 
 
 Leer cuidadosamente toda la evaluación antes de realizar el mismo.
 
@@ -33,6 +33,11 @@ d. Creatividad.
 
 e. Dificultad.
 
+
+Titanic es una película estadounidense dramática de catástrofe de 1997 dirigida y escrita por James Cameron y protagonizada por Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates, Gloria Stuart y Bill Paxton.​ La trama, una epopeya romántica, relata la relación de Jack Dawson y Rose DeWitt Bukater, dos jóvenes que se conocen y se enamoran a bordo del transatlántico RMS Titanic en su viaje inaugural desde Southampton, Inglaterra, a Nueva York, EE. UU., en abril de 1912. 
+
+
+Avengers Infinity War (titulada Vengadores: Infinity War en España) Es una película estadounidense de superhéroes de 2018, basada en el equipo de superhéroes de Marvel Comics los Vengadores, producida por Marvel Studios y distribuida por Walt Disney Studios Motion Pictures. Es la secuela de The Avengers (2012) y Avengers: Age of Ultron (2015), ubicándose como la décimo novena película del Universo cinematográfico de Marvel.
    
 
  
