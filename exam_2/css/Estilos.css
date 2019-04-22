@@ -1,0 +1,78 @@
+/*hoja de estilos
+
+aqui es donde se hace todo el codigo que le da estilo a la pagina, la cual muestra
+el diseño de como va quedando todo mientras se usan ciertas etiquetas para personalizar
+el contenido que posee. 
+
+*/
+
+body{
+	background: url(../image/FondP.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size : cover;
+	color: blanchedalmond; 
+}
+
+h1{
+	color:red;
+	text-align-last: center;
+}
+
+.formulario{
+	width: 500px;
+	max-width: 100%;
+	margin: auto;
+	margin-top: 30px;
+	padding: 0 0 20px 10px rgba(0,0,0,0.7);
+    position: relative;
+
+}
+
+.formulario__titulo{
+	text-align: center;
+	margin-top: 0;
+	color:darkred;
+
+}
+
+.formulario__input, .formulario__label, .formulario__submit{
+	display: block;
+	width: 100%;
+	font-size: 1.3em;
+
+}
+
+.formulario__input{
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.541);
+    border: 1px solid rgba(0, 0, 0, 0.973);
+    color:beige;
+	margin-bottom: 40px;
+    text-align:right;
+
+}
+
+.formulario__input:focus + .formulario__label{
+   
+	margin-top: -140px;
+
+}
+
+.formulario__label{
+	padding-left: 20px;
+	position: absolute;
+	margin-top: -85px;
+	z-index: -20;
+	color: red;
+	transition: all 0.2s; 
+
+}
+
+.formulario__submit{
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+	border: none;
+    align-content: center;
+}

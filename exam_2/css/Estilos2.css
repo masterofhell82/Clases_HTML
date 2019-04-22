@@ -1,0 +1,75 @@
+/*hoja de estilos
+
+aqui es donde se hace todo el codigo que le da estilo a la pagina, la cual muestra
+el diseño de como va quedando todo mientras se usan ciertas etiquetas para personalizar
+el contenido que posee. 
+
+*/
+
+body{
+	background: url(../image/FondP2.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size : cover;
+	color: blanchedalmond; 
+}
+
+.Diana{
+    color: cornsilk;
+	text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+h2{
+   
+    color: brown;
+}
+
+h3{
+    
+    color:brown;
+}
+
+.contenedor{
+	background: url(../image/lolo.gif) no-repeat;
+	background-attachment: fixed;
+	background-size:contain;
+	color:white;
+	text-align:left;
+	margin-bottom: 0%;
+}
+
+.Diana1{
+	float: inherit;
+    max-height: 10px;
+    max-width: 10px;
+	margin-right: 10%;
+	
+}
+
+.Cotufa{
+	float: right;
+    width: 70%;
+	height: 70%;
+	padding-top: 10%;
+	
+}
+
+.Cotufa1{
+	float: right;
+    width: 70%;
+	height: 70%;
+	padding-top: 10%;
+}
+
+.Diana2{
+	float: inherit;
+    max-height: 10px;
+    max-width: 10px;
+	margin-right: 10%;
+	
+	
+}
