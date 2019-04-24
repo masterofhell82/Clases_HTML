@@ -1,0 +1,56 @@
+body {/*edita el cuerpo de el html*/ /**/
+    background-image:url(3.jpg);/*agrega imagen de fondo*/
+    background-attachment: fixed;/*deja la imagen fijada*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: center;/*deja el fondo centrado*/
+    background-size: 100%;/*tamaño de fondo*/
+}
+.examen{/*grupo de todo el trabajo*/
+    font-size: 18px;/*establece el tamaño de las letras*/
+    font-family: 'Times New Roman', Times, serif;/*estabelece el tipo de letra*/
+    background-image:url(4.jpg);/*agrega imagen de fondo*/
+    background-attachment: fixed;/*deja la imagen fijada*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: center;/*deja el fondo centrado*/
+    background-size: 100%;/*tamaño de fondo*/
+    width: 50%;/*especifica la anchura del area de contenido de un elemento*/
+    border: 7px solid black;/*poner borde y color a elemento */
+    padding: 35px 40px 25px;/*establece el area de relleno*/
+    position: absolute;/*centrar el elemento*/
+    top:90px;/*distancia de el tope superior de la pantalla*/
+    left: 260px;/*distancia que se aleja a la izquierda de la pantalla*/
+    border-radius: 0px 200px 0px 200px;/*poner borde redondeado a elemento*/
+    box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
+}
+.encabezado{/*encabezado de la pagina*/
+    font-family: Arial, Helvetica, sans-serif;/*estabelece el tipo de letra*/
+    font-size: 32px;/*establece el tamaño de las letras*/
+    background-color:black;/*color de fondo*/
+    color:green;/*color de letra*/
+    background-position: center 0;/*centra el fondo*/
+    text-align: center;/*centra el texto*/
+    width: 100%;/*especifica la anchura del area de contenido de un elemento*/
+    padding: 35px 30px 25px;/*establece el area de relleno*/
+    position: absolute;/*centrar el elemento*/
+    font-weight: bold;/*pone negrita el texto*/
+}
+.t_1,.t_3,.t_5,.t_7,.t_9{/*titulo de partes impares*/
+    text-align: center;/*centra el texto*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*estabelece el tipo de letra*/
+    font-size: 22px;/*establece el tamaño de las letras*/
+    color: rgb(177, 22, 177);/*color de letra*/
+    font-weight: bold;/*pone negrita el texto*/
+}
+.t_2,.t_4,.t_6,.t_8{/*titulo de partes pares*/
+    text-align: center;/*centra el texto*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*estabelece el tipo de letra*/
+    font-size: 22px;/*establece el tamaño de las letras*/
+    color: cyan;/*color de letra*/
+    font-weight: bold;/*pone negrita el texto*/
+}
+.p_1,.p_3,.p_5,.p_7,.p_9{/*partes impares*/
+    color: rgb(46, 15, 0);/*color de letra*/
+}
+.p_2,.p_4,.p_6,.p_8{/*partes pares*/
+    color: rgb(92, 11, 241);/*color de letra*/
+}

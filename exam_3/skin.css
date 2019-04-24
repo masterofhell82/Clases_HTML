@@ -1,0 +1,109 @@
+body {
+    color: white;/* color de la texto */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/* estilo de texto */
+    font-size: 18px;/* tamaño de texto */
+    background-image:url(../exam_2/4.jpg);/*agrega imagen de fondo*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: right;/*deja el fondo centrado*/
+    background-attachment: fixed;
+}
+.datos {
+    margin: -1px;
+    border: 7px solid rgb(43, 41, 41);/*poner borde y color a elemento */
+    padding: 40px 40px 20px;/* dimesiones de elemento */
+    position: absolute;/* posicion de elemento */
+    width: 350px;/* relleno de elemento */
+    top:150px;/*distancia de el tope superior de la pantalla*/
+    left: 0px; /* distancia a la inzquieda */
+    border-radius: 80px 80px 80px 80px;/*poner borde redondeado a elemento*/
+    box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
+    text-align: center;/* centra el texto */
+    background-image:url(../exam_2/3.jpg);/*agrega imagen de fondo*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: right;/*deja el hacia la derecha*/
+    background-attachment: fixed;/*deja el fondo fijado*/
+}
+form {
+    border: 7px solid black;/*poner borde y color a elemento */
+    padding: 40px 40px 20px;/* dimesiones de elemento */
+    position: fixed;/* posicion de elemento */
+    width: 450px;/* relleno de elemento */
+    top:2%;/*distancia de el tope superior de la pantalla*/
+    left: 600px; /* distancia a la inzquieda */
+    border-radius: 80px 80px 80px 80px;/*poner borde redondeado a elemento*/
+    box-shadow: 10px 13px 37px 11px rgba(0, 0, 0, 0.822);/*pone sombreado*/
+    text-align: left;/* deja a la izquierda el texto */
+    background-image:url(1.jpg);/*agrega imagen de fondo*/
+    background-repeat: no-repeat;/*no repite el fondo*/
+    background-position: center;/*deja el fondo centrado*/
+}
+form h2 {
+    color: #2b6411;/* color de texto */
+    text-align: center;/* centra el texto */
+}
+input{
+    margin-bottom: 12px;/* margen de el boton */
+    width: 100%;/* relleno de elemento */
+    padding: 15px ;/* dimesion de elemento */
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border: 1px solid black;/*poner borde y color a elemento */
+    border-radius: 25px;/*poner borde redondeado a elemento*/
+    box-shadow: 5px 10px  rgba(0, 0, 0, 0.822);
+}
+input[type="submit"] {
+    margin-bottom: 0;/* margen */
+    background: #163ab1;
+    color: #fff;/* color de la texto */
+    padding: 10px;/* dimesion de elemento */
+    border-radius: 100px 40px 100px 40px;/*poner borde redondeado a elemento*/
+    box-shadow:none;/* sombreando nulo*/ 
+}
+input[type="submit"]:hover{
+    background: #68c1eb; /* color del fondo */
+    cursor: pointer;/* cambio de estilo en cursor*/
+}
+input[type="reset"] {
+    margin-bottom: 0;/* margen */
+    background: #fff;/* color del fondo */
+    color: black;/* color de la texto */
+    border: none;/* sin borde */
+    padding: 10px;/* dimesion de elemento */
+    border-radius:0%;/*quitar borde redondeado a elemento*/
+    box-shadow:none;/* sombreando nulo*/
+}
+input[type="reset"]:hover{
+    background: #f70404; /* color del fondo */
+    cursor: pointer;/* cambio de estilo en cursor*/
+}
+:placeholder-shown {
+    color: grey;/* color de la texto */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;/* estilo de texto */
+}
+a{
+    margin-bottom: 0;/* margen */
+    background: rgb(221, 146, 8);/* color del fondo */
+    color: black;/* color de la texto */
+    border-radius: 120px 0px 119px 0px;/*poner borde redondeado a elemento*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/* estilo de texto */
+    box-shadow:none;/* sombreando nulo*/
+    text-align: center;/* centra el texto */
+    text-decoration: none;/* sin subrayado */
+    padding: 10px 10px 10px;/* dimesiones de elemento */
+    display: block;/* puesta de bloque */
+    font-size: 12px;/* tamaño de texto */
+    width: 50px;/* relleno de elemento */
+    float: right;/* flota hacia la derecha */
+}
+a:hover{
+    background:rgb(219, 184, 30);  /* color del fondo */
+    cursor: pointer;/* cambio de estilo en cursor*/
+}
+.portada{
+    color: rgb(0, 0, 0);/* color de la texto */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/* estilo de texto */
+    width: 50%;/* relleno de elemento */
+    font-size: 21px;/* tamaño de texto */
+    text-align: center;/* centra el texto */
+}
