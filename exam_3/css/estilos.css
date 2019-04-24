@@ -1,0 +1,66 @@
+/*hoja de estilos para presentar el diseño de mi CRUD*/
+body {
+	margin: 0;
+	background-image: url(libros.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	
+} /*Esto es para el fondo*/
+
+
+.form-title {
+	color: #ffffff;
+	text-align: center;
+	margin: 0;
+	font-size: 50px;
+    margin-bottom: 20px;
+    font-family: serif; 
+	font-weight: bold;
+} /*Esto es para título de Bienvenido*/
+
+.form-title2 {
+    color: #ffffff;
+    font-family: serif; 
+	font-weight: bold;
+} /*Esto es para el título de Introduce*/
+
+.btn-submit {
+	width: 90%;
+	font-family: serif;
+	outline: none;
+	background: #29327e;
+	font-size: 18px;
+	border: none;
+	padding: 10px 0;
+	cursor: pointer;
+	color: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-family: serif; 
+    font-weight: bold;
+    margin-left: 25px;
+} /*Esto es para el botón de Introduce*/
+
+.form-title3 {
+    color: #ffffff;
+    font-family: serif; 
+	font-weight: bold;
+} /*Esto es para el título de Edita*/
+
+
+.btn-submit2 {
+	width: 90%;
+	font-family: serif;
+	outline: none;
+	background: #29327e;
+	font-size: 18px;
+	border: none;
+	padding: 10px 0;
+	cursor: pointer;
+	color: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-family: serif; 
+    font-weight: bold;
+    margin-left: 25px;
+} /*Esto es para el botón de Edita*/
