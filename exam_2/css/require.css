@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	background: url(fondopng.png) no-repeat;
+	background-attachment: fixed;
+	background-size : cover;
+	
+}
+
+.form-header{
+    width: 60%;
+	background-color: #003333;
+	margin-left: 270px;
+	border-radius: 30px;
+}
+
+.form-title{
+    color: #FFFFFF;
+	text-align: center;
+	margin: 0;
+	font-size: 50px;
+}
+
+.contenedor{
+    width: 58%;
+    background: rgba(223, 223, 223, 0.8);
+    margin-left: 280px;
+    
+}
+
+.form-title2{
+    
+    text-align: center;
+    color: #FFFFFF;
+	background: #4b4b4b;
+    border: 2px solid rgb(0, 0, 0);
+	
+}
+
+.imc{
+    width: 265px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 20px;
+
+}
