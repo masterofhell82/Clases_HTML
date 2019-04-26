@@ -1,0 +1,25 @@
+/* Agregando imagen y color */
+body{
+	background-image:url('https://img.freepik.com/vector-gratis/fondo-pintura-acuarela-rosa-vibrante_53876-58930.jpg?size=626&ext=jpg');
+    background-color: transparent;
+}
+/* posicionando el formulario y titulos*/
+div{
+	margin: center;
+	background-position: center; 
+    text-align: center;   
+}
+h1{
+	
+	background-position: center;
+    text-align: center;
+}
+h2{
+	
+	background-position: center;
+	text-align: center;
+}
+h3{	
+	background-position: center, left;
+	text-align: center; 
+}
