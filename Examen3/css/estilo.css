@@ -1,0 +1,64 @@
+/*Estilos. diseño*/
+body{
+    background-image: url('imagen.jpg');
+    background-color: transparent; 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+/*Estilos a titulo principal*/    
+}
+.form-title{
+    color: rgb(7, 7, 7);
+    margin: 0%;
+    font-size: xx-large;
+    margin-bottom: auto;
+    font-family: cursive;
+    font-weight: bolder;
+    margin-left: 40px;
+    margin-top: 30px;
+    
+}
+/* estilo a titulo secundario*/
+h2{
+    background-position: center;
+    text-align: center;
+    font-family: cursive; 
+    font-weight: lighter;
+    margin-top: 0px;
+}
+/* estilo a texto para indicar que ingresar*/
+h6{
+    font-family: cursive;
+    font-weight: bolder;
+}
+/*estilos cuadro de muestra*/
+.alert-dark {
+    background-position-x: right;
+    background-color:lightblue;
+    font-family: cursive;
+    margin-top: 75px;
+    margin-bottom: 0px;
+}
+    
+ /*estilo a botton*/
+
+.bottom{
+	font-family: cursive;
+	background: #8fd6f7;
+	color: rgb(7, 7, 7);
+    margin-top: 15px;
+    font-weight: lighter;
+    margin-left: 200px;
+    border-radius:7px; 
+     
+}
+.bottom2{
+	font-family: cursive;
+	background: #8fd6f7;
+	color: rgb(7, 7, 7);
+    margin-top: 15px;
+    font-weight: lighter;
+    margin-left: 200px;
+    border-radius: 7px;    
+}
