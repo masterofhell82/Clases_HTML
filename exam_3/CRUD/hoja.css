@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ajusta la imagen estacionamiento como fondo de pantalla */
+body{
+	background:url(estacionamiento.jpeg);
+	background-repeat:no-repeat;
+	background-attachment:fixed; 
+	background-size:cover;
+	
+}
+
+/* alinea el texto al centro y pone los bordes en blanco y de grosor un pixel */
+table th,td{
+	text-align:center;
+	border:1px white solid;
+}
+
+/* separa los botones 5 pixeles con un borde 0  pixeles */
+table .bot{
+	padding:0 5px;
+	border:0;
+}
+
+/* como sobrar columnas las pongo sin bordes */
+table .sin{
+	border:0;
+}
+
+/* ajusta el texto con un fondo negro desvanecido con el color de la fuente con un blaco no tan fuerte y ajusta el tamaño de la letra */
+table .fila{
+	font-size:1.5em;
+	background:rgb(0, 0, 0 ,.6);
+	color:whitesmoke;
+}
+/* ajusta el texto al centro los inputs */
+.centrado{
+	text-align:center;
+}
+
+
+

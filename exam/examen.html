@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Examen</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <!---
-        ** Deploy Your Code **
-    -->
-  </head>
-  <body>
-    <form action="" class="form-horizontal" role="form">
-      <div class="form-group">
-        <legend>Examen</legend>
-      </div>
-
-      <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
-      <!---
-            ** Deploy Your Code **
-        -->
-
-      <div class="form-group">
-        <div class="col-sm-10 col-sm-offset-2">
-          <button type="submit" class="btn btn-primary">Ver</button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/stylehtml.css">
+</head>
+<body>
+    <div class="centro">
+        <h1>EMPRESA DE AQUARIUM CELLULAR C.A</h1>
+        <h2>registro de datos para la ficha tecnica</h2>
+    </div>
+    
+    <form method="POST" action="mostrar resultados.php">
+        <div class="centro2">
+            <h3>registra los datos del cliente</h3>
         </div>
-      </div>
+
+        <label for="nombre" >Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="campo" maxlength="30" required> <br><br/>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="apellido" class="campo" maxlength="30" required><br><br/>
+        <label for="dirección">Dirección:</label>
+        <input type="text" id="dirección" name="dirección" placeholder="direccion" class="campo" maxlength="30" required><br><br/>
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="correo" class="campo" maxlength="30" required><br><br/>
+        <label for="CI"> CI:</label>
+        <input type="number" id="CI" min="1" name="CI" placeholder="CI" class="campo" required><br><br/>
+        <label for="edad">Edad:</label>
+        <input type="number" min="18" max="200" step="1" id="edad" name="edad" placeholder="edad" class="campo" required><br><br/>
+        <label for="sexo">Mujer:</label>
+        <input type="radio" id="sexo" name="sexo" value="mujer"  required><br><br/>
+        <label for="sexo">Hombre:</label>
+        <input type="radio" id="sexo" name="sexo" value="hombre"  required><br><br/>
+
+        <div class="centro2">
+            <h3>registra los datos del celular</h3>
+        </div>
+       
+        <label for="modelo">Modelo del equipo:</label>
+        <input type="text" id="modelo" name="modelo" placeholder="modelo equipo" class="campo" maxlength="30" required> <br><br/>
+        <label for="IMEI">IMEI:</label>
+        <input type="number" id="IMEI" name="IMEI" min="0" placeholder="IMEI" class="campo" maxlength="30" required><br><br/>
+        <label for="fecha">Fecha de entrega:</label>
+        <input type="date" id="fecha" name="fecha" placeholder="fecha" class="campo" required><br><br/>
+        <label for="falla">Falla del equipo:</label>
+        <input type="message" id="falla" name="falla" placeholder="falla equipo" class="campo" maxlength="30" required><br><br/>
+
+        <input type="submit" class="boton" title="enviar">
     </form>
-  </body>
+    
+</body>
 </html>

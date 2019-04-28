@@ -1,0 +1,46 @@
+body{
+    font-family: Arial;
+    background: #66CDAA;
+    box-sizing: border-box;
+}
+
+.centro{
+    margin: 0px auto;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+
+#tabla{
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color:#EEE8AA;
+    width: 350px;
+    padding:30px;
+    font-size: 0.9em;
+   
+}
+
+table{
+    background-color:whitesmoke;
+}
+
+td,tr{
+    border: solid 1px black;
+    padding: 10pxpx;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+body{
+    font-family: Arial;
+    background: #66CDAA;
+    box-sizing: border-box;
+}
+
+
+input,textarea{
+    border-radius: 10px;
+   
+}
+
+form{
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color:#EEE8AA;
+    width: 400px;
+    padding:30px;
+    font-size: 0.9em;
+}
+
+
+.boton:hover{
+
+    background:rgb(184, 236, 219);
+}
+
+.campo{
+
+    border: solid 1px #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    border: 0;
+    width: 370px;
+}
+
+.boton{
+    background: #66CDAA;
+    padding: 10px;
+    border-radius: 4px;
+    border: 0;
+    width: 370px;
+}
+
+.centro{
+    margin: 0px auto;
+    text-align: center;
+    
+}
+
+.centro2{
+    margin: 0px auto;
+    text-align: center;
+    
+}
+
+
+
