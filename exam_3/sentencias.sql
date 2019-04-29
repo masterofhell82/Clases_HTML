@@ -12,10 +12,3 @@ ALTER TABLE `dja_prueba` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;
 INSERT INTO `dja_prueba` (`id`, `Nombre`, `Apellido`, `CI`) 
     VALUES ('1', 'David', 'Avila', '23634228');
 
-SELECT * FROM dja_prueba
-
-SELECT * FROM dja_prueba WHERE id=?
-
-UPDATE dja_prueba SET Nombre=?,Apellido=?,CI=? WHERE id=?
-
-DELETE FROM dja_prueba WHERE id=?
