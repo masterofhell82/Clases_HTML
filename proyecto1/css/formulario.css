@@ -1,0 +1,67 @@
+table{
+    width: 500;
+    background-color: pink;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+    margin: center;
+    border-radius: 5px white;
+    display: inline-block;
+   
+}
+tbody {
+    margin: 15px;
+    padding: 15px;
+    border-collapse: collapse;
+
+  }
+  form {
+      /* Sólo para centrar el formulario a la página */
+      margin: 0 auto;
+      width: 400px;
+      /* Para ver el borde del formulario */
+      padding: 1em;
+      border: 1px solid pink;
+      border-radius: 1em;
+  }
+
+form div + div {
+        margin-top: 1em;
+  }
+
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    /* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+       Por defecto, las areas de texto tienen una fuente con monospace */
+    font: 1em sans-serif;
+
+    /* Para darle el mismo tamaño a todos los campos de texto */
+    width: 300px;
+    
+    box-sizing: border-box;
+
+    /* Para armonizar el look&feel del borde en los campos de texto */
+    
+    border-radius: 1px solid #999;
+}
+
+
+
+/*
+.input [type=submit] {
+    /* Para posicionar los botones a la misma posición que los campos de texto */
+   /* padding-left: 90px; /* mismo tamaño a todos los elementos label */
+/*}
+input [type=submit] {
+    /* Este margen extra representa aproximadamente el mismo espacio que el espacio
+       entre los labels y sus campos de texto */
+ /*   margin-left: .5em;
+    
+}
+  

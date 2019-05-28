@@ -1,0 +1,53 @@
+/*Borrar Margenes que vienen por defecto con el navegador */
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    
+}/*Tamaño de las imagenes*/
+.slides{
+    width: 100%;
+}
+
+.slides img{
+    width: 100%;
+}
+/*Estilos para la pagnacion del slides*/
+.slidesjs-pagination{
+    background: #203447;/*fondo*/
+    list-style:none; /**/
+    overflow:hidden;/* Por si los elementos se salen, y no se vea mal*/
+
+}
+.slidesjs-pagination li {
+   float: left; /*los elementos se ubiqun de lado*/
+}
+.slidesjs-pagination li a {
+    display:block; /* Se bloquea para poder hacer modificaciones de alto y ancho */
+    padding:10px 20px;
+    color: white;
+    text-decoration:none;
+}
+/*Con hover es al pasar el mouse sin hecer click*/
+.slidesjs-pagination li a:hover{
+    background: black;
+
+}
+/*Con esta class le decimos que los elementos cambian de color al click*/
+.slides .active{
+    background: black;
+}
+/*clase en un bloque diferente*/
+.slidesjs-navigation{
+    background: black;
+    color: white;
+    text-decoration: none;
+    display:inline-block; /* para bloquear y los elementos no se coloquen uno al lado del otro*/ 
+    padding:10px 20px;
+    float: right;   
+}
+
